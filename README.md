@@ -28,3 +28,8 @@
 #### Mining Node
 <p>It is a computer that solves a complex mathmatical problem(proof of work) to add new blocks to the blockchain. Once the mining nodes craete a block it is validated by other nodes. The miner will be rewarded by cryptocurrenty for their work. Minining computer needs high specifications and high electricity supply.</p>
 
+## What is a Block> ◻
+<p>When each transaction taking place, it is documented and stroed as a data block. When miners add new blocks which also store another transaction data, it forms a chain. Blocks are attanged in a specific order. New blocks are added one after the other(Like a linked list). Each hash includes a unique key called <strong>hash</strong>. It is like a pointer to the previous node. The very first block is the genesis block. Unlike other blocks, it doesn’t have a reference to a previous block because it marks the beginning of the chain.
+
+</p>
+
