@@ -4,9 +4,7 @@
 
 #### The world is expericing an undergoing digital transormation, it's the blockchain transformation.
 
-<div>
-    <strong>⚠️ Warning:</strong> You will get a job after learning Blockchain.
-</div>
+<p><strong>⚠️ Warning:</strong> You will get a job after learning Blockchain.</p>
 
 <p>Let's be practical. Everything has a initial learning curve to overcome. I believe that you have some sort of idea about technology. Nooo, i don't mean that you should be a Larry page. Just someone who have worked on a project,that's enought.</p>
 
@@ -28,8 +26,37 @@
 #### Mining Node
 <p>It is a computer that solves a complex mathmatical problem(proof of work) to add new blocks to the blockchain. Once the mining nodes craete a block it is validated by other nodes. The miner will be rewarded by cryptocurrenty for their work. Minining computer needs high specifications and high electricity supply.</p>
 
-## What is a Block> ◻
-<p>When each transaction taking place, it is documented and stroed as a data block. When miners add new blocks which also store another transaction data, it forms a chain. Blocks are attanged in a specific order. New blocks are added one after the other(Like a linked list). Each hash includes a unique key called <strong>hash</strong>. It is like a pointer to the previous node. The very first block is the genesis block. Unlike other blocks, it doesn’t have a reference to a previous block because it marks the beginning of the chain.
-
+## What is a Block? ◻
+<p>When each transaction taking place, it is documented and stroed as a data block. When miners add new blocks which also store another transaction data, it forms a chain. Blocks are arranged in a specific order. New blocks are added one after the other(Like a linked list). Each block includes a unique key called <strong>hash</strong>. It is like a pointer to the previous block. 
 </p>
+
+<p>The very first block is the <bold>genesis block</bold>. Unlike other blocks, it doesn’t have a reference to a previous block because it marks the beginning of the chain.</p>
+
+
+## What is smart contract
+<p>With simple words, smart contract are computer programs running on the blockchain. The program is strored on a decentrailized blockchain network. When specific conditions are met, the smart contracct is executed automatically. Once the code is run, it cannot be undone or modified.</p>
+
+<p>Smart contract offer a mojor benefits by allowing transactions and agreements to happen between parties who may not fully trust each other. This means that there is no need for a third party authority, legal system in between the process. It allows anonymous execution of agreeements.</p>
+
+
+## What is DApps(Decentralized application)?
+
+<p>DApp's are open source software programs that run on a  blockchain or peer-to-peer network of computers. They are powered by smart contract and typically use one or more of them to operate. We could say that the software build with one or more smart contracts is DApps. Example: DeFi(Decentrailised finance)</p>
+
+## Types of blockchain ?
+1) Private Blockchain
+2) Public Blockchain
+3) Hybrid Blockchain
+
+#### Private Blockchain
+<p>A private blockchai is a closed network controlled by one organization or a specific group, restricting access to authorized participants only. Unlike public blockchains, it is centralized and used for secure, efficent transactions within a company. Private blockchians offer enhanced privacy and security, making them ideal for businesses needing a controlled environment.</p>
+
+#### Public Blockchain
+<p>It is a global and open network that operates in a decentralized manner. It allows anyone to participate in transactions, contribute to the consensus protocol and review the contents of the blockchian.</p>
+
+
+#### Hybrid Blockchain
+<p>It combines the feature of private and public blockchain. In a hybrid blockchain, enterprises can decide which data (transaction) shall be posted from private blockchain to public blockchain.</p>
+
+
 
