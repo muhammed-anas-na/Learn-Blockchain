@@ -2,7 +2,7 @@
 ### (Let's start from the basic concepts of blockchain and move forward)
 
 
-#### The world is expericing an undergoing digital transormation, it's the blockchain transformation.
+#### The world is expericing an undergoing digital transormation and it's the blockchain transformation.
 
 <p><strong>⚠️ Warning:</strong> You will get a job after learning Blockchain.</p>
 
