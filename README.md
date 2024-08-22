@@ -70,4 +70,5 @@
 
 
 ## What's crypto wallet?
-<p>A blockchain wallet is a digital wallet that allows users to store, send, and receive cryptocurrencies</p>
+<p>A blockchain wallet is a digital wallet that allows users to store, send, and receive cryptocurrencies.</p>
+
