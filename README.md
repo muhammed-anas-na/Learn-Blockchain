@@ -79,5 +79,29 @@
 
 ## Learn Solidity(programming language used in blockchain)
 
-<p>I believe that you have understand what is smart contract, just recap smart contract is a computer program that is run on blockchain. And this smart contract is written by Solidity. Yeah that what it is.😅</p>
+<p>I believe that you have understand what is smart contract, just recap, smart contract is a computer program that is run on blockchain. And this smart contract is written by Solidity. Yeah that what it is.😅</p>
+
+<p>If you are familiar with javascript, it's almost the same syntax. Let's first understand the basic syntax. It is recomended to use Remix IDE to do the workouts.</p>
+
+### Primative Data Types
+1) boolean
+2) uint256 0 to 2 ** 256 - 1
+3) int256
+4) address
+
+<p>Example file has been add primative-data-types.sol</p>
+
+```
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+contract PrimativeDataType{
+    uint public a; //0
+    int public b; //0
+    bool public c; //false
+    address public  d; // 0x0000000000000000000000000000000000000000
+    string public e; //""
+}
+
+```
 
