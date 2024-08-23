@@ -102,6 +102,33 @@ contract PrimativeDataType{
     address public  d; // 0x0000000000000000000000000000000000000000
     string public e; //""
 }
-
+ //I have also added public keyword, which we will talk about later.
+ //Copy this code and deploy it in your Remix IDE.
 ```
 
+### Variables
+1) Local Variable
+    a) declared inside a function
+    b) not stored on the blockchain
+2) State Variable
+    a) declared outside a function
+    b) stored on the blockchain
+3) Global Variable (provides information about the blockchain)
+
+
+```
+contract Variables{
+    //State Variable
+    uint public a;
+
+    constructor(){
+        //msg.sender is the Global variable
+        address owner = msg.sender;
+    }
+
+    function functionName() public pure{
+        //Local Variable
+        uint256 i = 456;
+    }
+}
+```
