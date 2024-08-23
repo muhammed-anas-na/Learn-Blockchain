@@ -74,12 +74,61 @@
 <p>A blockchain wallet is a digital wallet that allows users to store, send, and receive cryptocurrencies.</p>
 
 ### Yeah, that's the complete basics of blockchain. Don't worry if you dont understand it completely. Will understand when we move forward.
+### Congrat's 🎉🎊
 
 
+## Learn Solidity(programming language used in blockchain)
+
+<p>I believe that you have understand what is smart contract, just recap, smart contract is a computer program that is run on blockchain. And this smart contract is written by Solidity. Yeah that what it is.😅</p>
+
+<p>If you are familiar with javascript, it's almost the same syntax. Let's first understand the basic syntax. It is recomended to use Remix IDE to do the workouts.</p>
+
+### Primative Data Types
+1) boolean
+2) uint256 0 to 2 ** 256 - 1
+3) int256
+4) address
+
+<p>Example file has been add primative-data-types.sol</p>
+
+```
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+contract PrimativeDataType{
+    uint public a; //0
+    int public b; //0
+    bool public c; //false
+    address public  d; // 0x0000000000000000000000000000000000000000
+    string public e; //""
+}
+ //I have also added public keyword, which we will talk about later.
+ //Copy this code and deploy it in your Remix IDE.
+```
+
+### Variables
+1) Local Variable
+    a) declared inside a function
+    b) not stored on the blockchain
+2) State Variable
+    a) declared outside a function
+    b) stored on the blockchain
+3) Global Variable (provides information about the blockchain)
 
 
+```
+contract Variables{
+    //State Variable
+    uint public a;
 
+    constructor(){
+        //msg.sender is the Global variable
+        address owner = msg.sender;
+    }
 
-
-
-
+    function functionName() public pure{
+        //Local Variable
+        uint256 i = 456;
+    }
+}
+```
