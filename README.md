@@ -74,12 +74,10 @@
 <p>A blockchain wallet is a digital wallet that allows users to store, send, and receive cryptocurrencies.</p>
 
 ### Yeah, that's the complete basics of blockchain. Don't worry if you dont understand it completely. Will understand when we move forward.
+### Congrat's 🎉🎊
 
 
+## Learn Solidity(programming language used in blockchain)
 
-
-
-
-
-
+<p>I believe that you have understand what is smart contract, just recap smart contract is a computer program that is run on blockchain. And this smart contract is written by Solidity. Yeah that what it is.😅</p>
 
