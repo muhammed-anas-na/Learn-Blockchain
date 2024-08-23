@@ -153,3 +153,30 @@ contract Immutable {
     }
 }
 ```
+
+### Mapping
+<p>Maps are created with the syntax mapping(keyType => valueType). The keyType can be any built-in value type, bytes, string, or any contract.valueType can be any type including another mapping or an array. Mappings are not iterable. </p>
+
+```
+contract Mapping{
+    mapping (uint => address) Users;
+    //Mapping is like a hashtable or dictinoty in any other language. Which stores data in a key value pair.
+    //Set values to map
+    function setUser(uint _i, address _addr) public{
+        Users[_i] = _addr;
+    }
+
+    //Remove values from map
+    function remove(uint _i) public {
+        delete Users[_i];
+    }
+}
+```
+
+### Array
+<p>There are 2 types of array in solidity. Fixed size and dynamic size array.</p>
+
+
+
+
+
